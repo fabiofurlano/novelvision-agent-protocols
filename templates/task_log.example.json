@@ -1,0 +1,13 @@
+[
+  {
+    "task_id": "unique-id",
+    "status": "planned",
+    "created_by": "Sora",
+    "agent": "Cursor",
+    "context": "Frontend",
+    "plan_file": "task_scratchpads/unique-id.md",
+    "description": "What this task does",
+    "notes": "Relevant side info",
+    "created_at": "2025-04-21T18:00:00Z"
+  }
+]
