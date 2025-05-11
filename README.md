@@ -1,11 +1,10 @@
-# NovelVision Agent Protocols
+# Hello World - GPT was here
 
 This repository defines the core protocols and operational standards for collaborative agent systems in the NovelVision AI infrastructure.
 
 ## Purpose
 
 The NovelVision AI Agent Protocol System provides a structured framework for collaboration between different AI agents (Sora, Cursor, Cline, Gemini, Claude) and humans. It enables:
-
 - Clear communication through standardized message formats
 - Persistent memory across sessions and agents
 - Structured task management and tracking
@@ -16,7 +15,6 @@ The NovelVision AI Agent Protocol System provides a structured framework for col
 ### 📡 CodeBridge
 
 CodeBridge is the structured relay system used to pass clear, scoped, and modular instructions between humans and agents. It ensures that all participants have a shared understanding of the task, context, scope, and expected outcomes.
-
 [Learn more about CodeBridge](docs/codebridge_protocol.md)
 
 ### 🧠 Task Manager
