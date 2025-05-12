@@ -11,7 +11,14 @@ Tracks the lifecycle, scratch memory, and test notes for all tasks across the No
 
 **For Humans:**
 1. Create or review a task idea
-2. Ask Sora to generate a task ID, plan, and scratchpad
+2.Ask Sora to generate a task ID and register it in task_log.json.
+Then Sora will generate a CodeBridge message to instruct the AI coding tool (Cline/Cursor) to:
+
+Create the corresponding .md scratchpad
+
+Populate it with investigation logs, plans, and result tracking during the task lifecycle.
+Humans should not write in the scratchpad — it is for AI agent use only.”
+
 3. Use task ID with Cursor or other agents
 4. Update `.md` file with outcomes, lessons, errors
 
